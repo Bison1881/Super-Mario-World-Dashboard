@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Mario World Strategy Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <h1>🦖 SUPER MARIO WORLD STRATEGY GUIDE</h1>
+            <p>Interactive Map Secrets, Trackers, and Glitch Archives</p>
+        </header>
+        
+        <nav class="tab-menu">
+            <button class="tab-btn active" onclick="switchTab('maps')">🗺️ Area Maps</button>
+            <button class="tab-btn" onclick="switchTab('yoshi')">🦖 Yoshi Matrix</button>
+            <button class="tab-btn" onclick="switchTab('coins')">🪙 Dragon Coins</button>
+            <button class="tab-btn" onclick="switchTab('castle')">🏰 Bowser's Castle</button>
+            <button class="tab-btn" onclick="switchTab('glitches')">🔧 Glitch Archive</button>
+        </nav>
+
+        <main id="main-content">
+            <!-- Interactive dashboard modules render dynamically here -->
+            <section id="maps-view" class="content-panel">
+                <h2>Area Secret Selector</h2>
+                <p>Select a region to reveal secret exit guides and structural map tips.</p>
+            </section>
+        </main>
+    </div>
+    <script>
+        function switchTab(tabId) {
+            document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+            // Logic to switch active display container goes here
+        }
+    </script>
+</body>
+</html>
