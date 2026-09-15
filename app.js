@@ -10,7 +10,7 @@ const SMW_DATA = {
                 { level: "Yoshi's Island 2", tip: "Contains the secret path leading down a green pipe near the midway checkpoint. Find the key and slot it into the keyhole to build a direct bridge to the Yellow Switch Palace." },
                 { level: "Yoshi's Island 4", tip: "Grab a Cape or Yoshi to reach the floating key safely tucked away in the deep water section to uncover the warp to Star World 1." }
             ],
-            coins: ["Yoshi's Island 1", "Yoshi's Island 2", "Yoshi's Island 3", "Yoshi's Island 4", "Yellow Switch Palace", "Iggy's Castle"]
+            coins: ["Yoshi's Island 1", "Yoshi's Island 2", "Yoshi's Island 3", "Yoshi's Island 4"]
         },
         donut: {
             name: "🥞 Donut Plains",
@@ -20,7 +20,7 @@ const SMW_DATA = {
                 { level: "Donut Plains 2", tip: "Use a shell or Cape Mario to clear the blocks blocking a green pipe on the ceiling near the moving wall section. Climb up to find the key to open a shortcut to the Donut Ghost House." },
                 { level: "Donut Ghost House", tip: "Break standard rules by running up the wall and sprinting along the dark ceiling space beyond the screen limits. Drop down at the far right to find a secret door unlocking the Top Secret Area for infinite Yoshis and items." }
             ],
-            coins: ["Donut Plains 1", "Donut Plains 2", "Donut Ghost House", "Donut Plains 3", "Donut Plains 4", "Donut Secret 1", "Donut Secret 2", "Green Switch Palace", "Morton's Castle"]
+            coins: ["Donut Plains 1", "Donut Plains 2", "Donut Ghost House", "Donut Plains 3", "Donut Plains 4", "Donut Secret 1", "Donut Secret 2"]
         },
         vanilla: {
             name: "🌋 Vanilla Dome",
@@ -29,7 +29,7 @@ const SMW_DATA = {
                 { level: "Vanilla Dome 1", tip: "Scale the massive mountain of blocks past the halfway line using a Cape or a hidden vine block to find a high ledge. Insert the key to forge a trail to Vanilla Secret 1 and the Red Switch Palace." },
                 { level: "Vanilla Dome 2", tip: "Wade carefully through the lower-left aquatic routes. Carry a blue P-Switch past the charging enemies to turn solid brown blocks into temporary coins, allowing you to slip through the floor straight to the Star World 3 gateway." }
             ],
-            coins: ["Vanilla Dome 1", "Vanilla Dome 2", "Vanilla Ghost House", "Vanilla Dome 3", "Vanilla Dome 4", "Vanilla Secret 1", "Vanilla Secret 2", "Red Switch Palace", "Lemmy's Castle"]
+            coins: ["Vanilla Dome 1", "Vanilla Dome 2", "Vanilla Ghost House", "Vanilla Dome 3", "Vanilla Dome 4", "Vanilla Secret 1", "Vanilla Secret 2"]
         },
         bridges: {
             name: "🌉 Twin Bridges / Cookie Mountain",
@@ -38,17 +38,17 @@ const SMW_DATA = {
                 { level: "Cheese Bridge Area", tip: "Ride Yoshi all the way to the end of the line. Fly completely underneath the normal giant goal post, then leap off Yoshi mid-air to land behind it. Walk right to hit a hidden secondary goal post that unlocks Soda Lake and leads to Star World 4." },
                 { level: "Cookie Mountain", tip: "This stage is packed with Monty Moles and Sumo Bros. Look out for the hidden 1-Up mushrooms inside the high floating item blocks that require a Cape or a well-timed jump off a Koopa shell to reach." }
             ],
-            coins: ["Cheese Bridge Area", "Cookie Mountain", "Soda Lake", "Butter Bridge 1", "Butter Bridge 2", "Ludwig's Castle"]
+            coins: ["Cheese Bridge Area", "Cookie Mountain", "Soda Lake", "Butter Bridge 1", "Butter Bridge 2"]
         },
         forest: {
             name: "🌳 Forest of Illusion",
             description: "A dense, confusing maze of trees designed to trap unsuspecting players in infinite loops unless they locate the true secret paths.",
             secrets: [
                 { level: "Forest of Illusion 1", tip: "Get a Balloon item or use Cape Mario to slowly float down beneath the main log bridge right before the standard exit. A hidden key and keyhole rest safely on a tiny platform below the normal screen view." },
-                { level: "Forest of Illusion 2", tip: "Dive deep and swim along the absolute bottom floor of the water level. Look for a false yellow wall block that you can pass straight through to find a hidden alcove containing the secret key and Blue Switch Palace access." },
-                { level: "Forest of Illusion 3", tip: "Instead of jumping over the massive green pipe near the finish line, go down inside it. Use a spin-jump as Big Mario to smash the rotating yellow blocks underneath you to drop directly onto the hidden key." }
+                { level: "Forest of Illusion 2", tip: "Dive deep and swim along the absolute bottom floor of the water level. Look for a false yellow wall block that you can pass straight through to find a hidden alcove containing the secret key leading to Forest Secret Area." },
+                { level: "Forest of Illusion 3", tip: "Instead of jumping over the massive green pipe near the finish line, go down inside it. Use a spin-jump as Big Mario to smash the rotating yellow blocks underneath you to drop directly onto the hidden key to unlock the Blue Switch Palace." }
             ],
-            coins: ["Forest of Illusion 1", "Forest of Illusion 2", "Forest of Ghost House", "Forest of Illusion 3", "Forest of Illusion 4", "Forest Secret Area", "Blue Switch Palace", "Roy's Castle"]
+            coins: ["Forest of Illusion 1", "Forest of Illusion 2", "Forest Ghost House", "Forest of Illusion 3", "Forest of Illusion 4", "Forest Secret Area"]
         },
         chocolate: {
             name: "⛰️ Chocolate Island",
@@ -57,7 +57,7 @@ const SMW_DATA = {
                 { level: "Chocolate Island 2", tip: "The rooms you enter change based on your speed and coin collection. To reach the secret key room, make sure you sprint through the first areas quickly so that you exit the second room with more than 250 seconds left on the game clock." },
                 { level: "Chocolate Island 3", tip: "Grab a Feather and run up a massive runway to get maximum speed. Fly directly over and past the normal giant goal post, continuing right onto a secret high-altitude plateau to find the hidden exit to Star World 5." }
             ],
-            coins: ["Chocolate Island 1", "Chocolate Island 2", "Chocolate Ghost House", "Chocolate Island 3", "Chocolate Island 4", "Chocolate Island 5", "Wendy's Castle"]
+            coins: ["Chocolate Island 1", "Chocolate Island 2", "Chocolate Ghost House", "Chocolate Island 3", "Chocolate Island 4", "Chocolate Island 5"]
         },
         bowser: {
             name: "🌋 Valley of Bowser",
@@ -66,7 +66,7 @@ const SMW_DATA = {
                 { level: "Valley of Bowser 2", tip: "Reach the final cavern area where the massive yellow dirt walls continuously rise and fall. Stand on the final moving wall block and let it carry you up into the invisible ceiling space. Walk left through the wall to find the hidden key room." },
                 { level: "Valley Ghost House", tip: "Hit the P-Switch located in the second room, then run as fast as you can to the right. Before the music stops, use the temporary solid silver coin blocks to build a staircase up to a door floating high in the air to unlock the Bowser's Castle Back Door." }
             ],
-            coins: ["Valley of Bowser 1", "Valley of Bowser 2", "Valley Ghost House", "Valley of Bowser 3", "Valley of Bowser 4", "Valley Fortress", "Larry's Castle"]
+            coins: ["Valley of Bowser 1", "Valley of Bowser 2", "Valley Ghost House", "Valley of Bowser 3", "Valley of Bowser 4"]
         },
         star: {
             name: "⭐ Star Road & Special Zone",
@@ -83,7 +83,7 @@ const SMW_DATA = {
         { yoshi: "🟢 Green Yoshi", green: "Normal Spit", red: "Fire Breath (3 Fireballs)", blue: "Flight Abilities", yellow: "Sand Cloud Shockwave" },
         { yoshi: "🔴 Red Yoshi", green: "Fire Breath (3 Fireballs)", red: "Fire Breath (3 Fireballs)", blue: "Fire Breath (3 Fireballs)", yellow: "Fire Breath (3 Fireballs)" },
         { yoshi: "🔵 Blue Yoshi", green: "Flight Abilities", red: "Flight Abilities", blue: "Flight Abilities", yellow: "Flight Abilities" },
-        { yoshi: "🟡 Yellow Yoshi", green: "Sand Cloud Shockwave", red: "Sand Cloud Shockwave", blue: "Sand Cloud Shockwave", yellow: "Sand Cloud Shockwave" }
+        { yoshi: "🟡 Yellow Yoshi", green: "Normal Spit", red: "Fire Breath (3 Fireballs)", blue: "Flight Abilities", yellow: "Sand Cloud Shockwave" }
     ],
     castleRooms: [
         { room: "Room 1", hazard: "Chargin' Chucks & Moving Platforms", difficulty: "Easy", strat: "Ideal starting room. Simply time your jumps past the Chucks clapping and throwing baseballs." },
@@ -153,13 +153,13 @@ function renderMapsModule(container) {
         updateRegionDisplay(e.target.value);
     });
 
-    updateRegionDisplay(Object.keys(SMW_DATA.regions));
+    updateRegionDisplay(Object.keys(SMW_DATA.regions)[0]);
 }
 
 function updateRegionDisplay(regionKey) {
     const data = SMW_DATA.regions[regionKey];
     const display = document.getElementById('region-details');
-    if (!display) return;
+    if (!display || !data) return;
     
     let secretsHTML = '';
     data.secrets.forEach(sec => {
@@ -253,8 +253,6 @@ function renderCoinsModule(container) {
     }
 
     container.innerHTML = `
-        <div class="content-panel">
-            <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; margin-bottom: 20px;">
         <div class="content-panel">
             <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; margin-bottom: 20px;">
                 <div>
