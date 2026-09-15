@@ -57,4 +57,10 @@ h1 {
     background: #1f4068;
     padding: 20px;
     border-radius: 6px;
+    /* Force long text fields and paragraphs to wrap inside the text box natively */
+    white-space: normal !important;
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+    max-width: 100%;
+    box-sizing: border-box;
 }
